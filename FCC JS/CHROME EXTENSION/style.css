@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+    font-family: Arial, Helvetica, sans-serif;
+    min-width: 400px;
+    background-color: white;
+}
+
+#main-heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: Tahoma;
+    background-color: yellow;
+    border: 5px solid black;
+    color: black;
+   
+}
+
+#user-type {
+    text-align: center;
+    font-family: Tahoma;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+#input-el {
+   padding: 10px;
+   width: 100%;
+   box-sizing: border-box;
+   border: 2px solid #5f9341;
+   height: 70px;
+   margin-top: 20px;
+   border: 2px solid #5f9341
+}
+
+#input-btn {
+background-color:blue;
+color: white;
+padding: 10px , 20px;
+font-weight: bold;
+border: 1px solid #5f9341;
+margin-bottom: 4px;
+width: 170px;
+height: 60px;
+font-size: large;
+font-family: Tahoma;
+margin-top: 15px;
+}
+
+#delete-btn{
+border: 1px solid black;
+background-color: red;
+color: white;
+padding: 10px , 20px;
+font-weight: bold;
+margin-bottom: 4px;
+width: 170px;
+height: 60px;
+font-size: large;
+font-family: Tahoma;
+margin-top: 5px;
+
+}
+
+#tab-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px , 20px;
+    font-weight: bold;
+    border: 1px solid #5f9341;
+    margin-bottom: 4px;
+    width: 170px;
+    height: 60px;
+    font-size: large;
+    font-family: Tahoma;
+    margin-top: 5px;
+}
+
+#ul-el{
+    color: green;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+li {
+    list-style: none;
+    margin-top: 5px;
+}
+
+ li a {
+    color: green;
+}
